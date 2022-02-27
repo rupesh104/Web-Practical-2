@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+  }
+  
+.parallax {
+        /* The image used */
+        background-image: url("../images/Top_technology_trends.jpg");
+      
+        /* Set a specific height */
+        min-height: 800px;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+  }
+  
+  #title-text {
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    width:780px;
+    text-align:center;
+  }
+  
+  #profile {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+  }
+  
+  #profile-pic {
+    background-image: url("../images/vrk.png");
+    background-size: cover;
+    background-position:center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+    border: 1px solid white;
+  }
+  
+  #profile-text {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #listicle-body {
+      width: 66.67%;
+      position:relative;
+  }
+  
+  .item-header {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+  }
+  
+  .paragraph-break {
+    height: 20px;
+  }
+  
+  .item-number-container {
+    position:absolute;
+    right:100%;
+  }
+  
+  .item-number {
+    position:absolute;
+    right:40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:black
+  }
+  
+  .item-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    color:black
+  }
+  
+  .item {
+    padding:60px 0px;
+  }
+  img {
+    width:100%;
+  }
